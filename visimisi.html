@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profil Desa Ketahun, Bengkulu Utara">
+    <meta name="keywords" content="Desa Ketahun, Bengkulu Utara, visi, misi, pemerintahan desa">
+    <title>Profil Desa Ketahun</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            overflow: hidden;
+            animation: fadeInNav 2s ease-in-out;
+        }
+
+        @keyframes fadeInNav {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            display: block;
+            transition: background 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background: #575757;
+        }
+
+        section {
+            padding: 2rem;
+            opacity: 0;
+            animation: fadeInSection 2s ease-in-out 0.5s forwards;
+        }
+
+        @keyframes fadeInSection {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #333;
+            animation: fadeInText 1.5s ease-in-out;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            animation: fadeInText 1.5s ease-in-out;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            animation: fadeInText 2s ease-in-out;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        footer {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            animation: fadeInFooter 1.5s ease-in-out;
+        }
+
+        @keyframes fadeInFooter {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @media screen and (max-width: 768px) {
+            section {
+                padding: 1rem;
+            }
+            header {
+                font-size: 1.2rem;
+            }
+            footer {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Visi & Misi Desa Ketahun</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="sejarah.html">Sejarah</a></li>
+            <li><a href="visimisi.html">Visi & Misi</a></li>
+            <li><a href="potensi.html">Potensi</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Visi</h2>
+        <p>"Terwujudnya Pemerintahan yang ADIL untuk KESEJAHTERAAN Rakyat"</p>
+        <h2>Misi</h2>
+        <ul>
+            <li>Membangun Pemerintahan yang Adil dan Berwibawa.</li>
+            <li>Membangun Infrastruktur yang Berkualitas.</li>
+            <li>Membangun Pelayanan Masyarakat.</li>
+            <li>Membangun Ekonomi Kerakyatan.</li>
+            <li>Membangun Sumber Daya Manusia.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Desa Ketahun, Bengkulu Utara. Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
